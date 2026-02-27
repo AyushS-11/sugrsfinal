@@ -1,0 +1,1424 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Priya Sharma",
+      "email": "priya@sugrs.in",
+      "password": "citizen123",
+      "role": "citizen",
+      "citizenId": "C001",
+      "department": null
+    },
+    {
+      "id": "u2",
+      "name": "Amit Kumar",
+      "email": "amit@sugrs.in",
+      "password": "citizen123",
+      "role": "citizen",
+      "citizenId": "C002",
+      "department": null
+    },
+    {
+      "id": "u3",
+      "name": "Meena Das",
+      "email": "meena@sugrs.in",
+      "password": "citizen123",
+      "role": "citizen",
+      "citizenId": "C003",
+      "department": null
+    },
+    {
+      "id": "u4",
+      "name": "Rajan Mehta",
+      "email": "rajan@sugrs.in",
+      "password": "officer123",
+      "role": "officer",
+      "citizenId": "O001",
+      "department": "Water"
+    },
+    {
+      "id": "u5",
+      "name": "Neha Verma",
+      "email": "neha@sugrs.in",
+      "password": "officer123",
+      "role": "officer",
+      "citizenId": "O002",
+      "department": "Streetlight"
+    },
+    {
+      "id": "u6",
+      "name": "Suresh Nair",
+      "email": "suresh@sugrs.in",
+      "password": "officer123",
+      "role": "officer",
+      "citizenId": "O003",
+      "department": "Road"
+    },
+    {
+      "id": "u7",
+      "name": "System Admin",
+      "email": "admin@sugrs.in",
+      "password": "admin123",
+      "role": "admin",
+      "citizenId": null,
+      "department": null
+    }
+  ],
+  "complaints": [
+    {
+      "id": "TKT-7978",
+      "title": "Gas Leak",
+      "description": "Gas is leaking from the main line and it may be dangerous.",
+      "category": "Water",
+      "priority": "CRITICAL",
+      "status": "PENDING",
+      "citizenId": "PUBLIC",
+      "citizenName": "Anonymous Citizen",
+      "phone": null,
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Pushpak Colony,  Amravati,  Maharashtra",
+      "lat": 20.88182,
+      "lng": 77.74746,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false,
+      "isDuplicate": true,
+      "parentComplaintId": "TKT-4509",
+      "impactScore": 1,
+      "requiresImmediateAttention": true,
+      "slaDeadline": "2026-02-27T03:58:30.747Z"
+    },
+    {
+      "id": "TKT-4509",
+      "title": "Gas Leak",
+      "description": "There is a gas leak in my area that needs immediate attention.",
+      "category": "Water",
+      "priority": "CRITICAL",
+      "status": "PENDING",
+      "citizenId": "PUBLIC",
+      "citizenName": "Anonymous Citizen",
+      "phone": null,
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Pushpak Colony,  Amravati,  Maharashtra",
+      "lat": 20.88182,
+      "lng": 77.74746,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false,
+      "isDuplicate": false,
+      "parentComplaintId": null,
+      "impactScore": 2,
+      "requiresImmediateAttention": true,
+      "slaDeadline": "2026-02-27T03:57:28.751Z"
+    },
+    {
+      "id": "TKT-6840",
+      "title": "Gas leak near market area",
+      "description": "Gas leak detected from broken pipe near main market. Smell is very strong.",
+      "category": "General",
+      "priority": "CRITICAL",
+      "status": "PENDING",
+      "citizenId": "C-TEST3",
+      "citizenName": "Test User 2",
+      "phone": null,
+      "assignedTo": "Rajan Mehta",
+      "department": "General",
+      "address": "Main Market",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false,
+      "isDuplicate": false,
+      "parentComplaintId": null,
+      "impactScore": 1,
+      "requiresImmediateAttention": true,
+      "slaDeadline": "2026-02-27T03:54:40.896Z"
+    },
+    {
+      "id": "TKT-6707",
+      "title": "Gas leak near market",
+      "description": "There is a dangerous gas leak from a burst pipe near the main market. People are evacuating.",
+      "category": "General",
+      "priority": "CRITICAL",
+      "status": "PENDING",
+      "citizenId": "C-TEST2",
+      "citizenName": "Test User",
+      "phone": null,
+      "assignedTo": "Rajan Mehta",
+      "department": "General",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false,
+      "isDuplicate": false,
+      "parentComplaintId": null,
+      "impactScore": 1,
+      "requiresImmediateAttention": true,
+      "slaDeadline": "2026-02-27T03:54:40.703Z"
+    },
+    {
+      "id": "TKT-8034",
+      "title": "Water Leakage",
+      "description": "I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up",
+      "category": "Water",
+      "priority": "High",
+      "status": "RESOLVED",
+      "citizenId": "PUBLIC",
+      "citizenName": "Devang Mirkute",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Pushpak Colony,  Amravati,  Maharashtra",
+      "lat": 20.88182,
+      "lng": 77.74746,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false,
+      "citizenRating": 3
+    },
+    {
+      "id": "TKT-4789",
+      "title": "Broken streetlight on MG Road",
+      "description": "Streetlight has been broken for 3 days causing accidents at night",
+      "category": "Streetlight",
+      "priority": "High",
+      "status": "RESOLVED",
+      "citizenId": "C-LIVETEST",
+      "citizenName": "Rahul Gupta",
+      "assignedTo": "Neha Verma",
+      "department": "Streetlight",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false
+    },
+    {
+      "id": "TKT-5375",
+      "title": "Test notif",
+      "description": "Large open pothole dangerous on street 5",
+      "category": "Road",
+      "priority": "High",
+      "status": "PENDING",
+      "citizenId": "C-TEST",
+      "citizenName": "Test Citizen",
+      "assignedTo": "Suresh Nair",
+      "department": "Road",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false
+    },
+    {
+      "id": "TKT-1834",
+      "title": "Test leaking pipe",
+      "description": "Water leaking from main pipe on Park Road since yesterday morning.",
+      "category": "Water",
+      "priority": "High",
+      "status": "PENDING",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false
+    },
+    {
+      "id": "TKT-4642",
+      "title": "Water Sanitation",
+      "description": "Water is leaking it should be fixed as soon as possible",
+      "category": "Water",
+      "priority": "Medium",
+      "status": "IN_PROGRESS",
+      "citizenId": "PUBLIC",
+      "citizenName": "Devang ",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Pushpak Colony,  Amravati,  Maharashtra",
+      "lat": 20.88182,
+      "lng": 77.74746,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false
+    },
+    {
+      "id": "TKT-8975",
+      "title": "No Water Supply",
+      "description": "There has been no water supply in the area for 2 days.",
+      "category": "water",
+      "priority": "High",
+      "status": "IN_PROGRESS",
+      "citizenId": "PUBLIC",
+      "citizenName": "Anonymous Citizen",
+      "assignedTo": "Rajan Mehta",
+      "department": "water",
+      "address": "Amravati",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26",
+      "is_deleted": false
+    },
+    {
+      "id": "TKT-1723",
+      "title": "hi...",
+      "description": "hi",
+      "category": "General",
+      "priority": "Medium",
+      "status": "PENDING",
+      "citizenId": "ANONYMOUS",
+      "citizenName": "Citizen",
+      "assignedTo": "Rajan Mehta",
+      "department": "General",
+      "address": "Amravati, Maharashtra, India",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-2459",
+      "title": "A large pothole has formed in the middle of the ro...",
+      "description": "A large pothole has formed in the middle of the road, causing inconvenience and posing a safety risk to vehicles and pedestrians. Vehicles are forced to slow down suddenly or swerve, which increases the chances of accidents. The pothole has been present for several days and is getting worse due to continuous traffic and weather conditions. Immediate repair is required to ensure road safety and smooth traffic flow.",
+      "category": "Road",
+      "priority": "High",
+      "status": "PENDING",
+      "citizenId": "ANONYMOUS",
+      "citizenName": "Citizen",
+      "assignedTo": "Suresh Nair",
+      "department": "Road",
+      "address": "Sector 14 Park, Gurgaon, Haryana (GPS Generated)",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-5854",
+      "title": "Final Test",
+      "description": "Testing",
+      "category": "Water",
+      "priority": "High",
+      "status": "RESOLVED",
+      "citizenId": "C001",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-7963",
+      "title": "Test Security",
+      "description": "Testing the hash chain",
+      "category": "Water",
+      "priority": "High",
+      "status": "IN_PROGRESS",
+      "citizenId": "C001",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-3225",
+      "title": "Test Security",
+      "description": "Testing the hash chain",
+      "category": "Water",
+      "priority": "High",
+      "status": "IN_PROGRESS",
+      "citizenId": "C001",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-2425",
+      "title": "drainage system ",
+      "description": "drainage system has been blocked every has been messed out no water source and water leakage has been going on ",
+      "category": "Water",
+      "priority": "High",
+      "status": "RESOLVED",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Chandur Railway,  Chandur,  Chandur Railway",
+      "lat": 20.818478106211103,
+      "lng": 77.97134399414064,
+      "imageUrl": "/uploads/1772092565834-Screenshot 2026-02-26 at 1.25.54â¯PM.png",
+      "rating": null,
+      "createdAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "TKT-7809",
+      "title": "wet litter near river",
+      "description": "their is a lot of waste collected near the river",
+      "category": "Waste",
+      "priority": "Low",
+      "status": "RESOLVED",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Neha Verma",
+      "department": "Waste",
+      "address": "Sector 5,  Gurgaon,  Haryana",
+      "lat": 28.483221851951644,
+      "lng": 77.01725006103517,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2026-02-25",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": "TKT-001",
+      "title": "Overflowing garbage bin near park",
+      "description": "The garbage bin at Sector 14 park has been overflowing for 3 days attracting rodents.",
+      "category": "Waste",
+      "priority": "High",
+      "status": "PENDING",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Neha Verma",
+      "department": "Waste",
+      "address": "Sector 14 Park, Gurgaon",
+      "lat": 28.4583,
+      "lng": 77.0268,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-18",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": "TKT-002",
+      "title": "Broken street light on MG Road",
+      "description": "Street light pole outside MG Road metro station non-functional for a week causing accidents.",
+      "category": "Streetlight",
+      "priority": "High",
+      "status": "PENDING",
+      "citizenId": "C002",
+      "citizenName": "Amit Kumar",
+      "assignedTo": "Neha Verma",
+      "department": "Streetlight",
+      "address": "MG Road Metro Station, Gurgaon",
+      "lat": 28.4734,
+      "lng": 77.0413,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-20",
+      "updatedAt": "2025-02-20"
+    },
+    {
+      "id": "TKT-003",
+      "title": "Pothole on highway junction",
+      "description": "Large pothole at the junction of NH-48 and city bypass. Multiple vehicles damaged.",
+      "category": "Road",
+      "priority": "High",
+      "status": "RESOLVED",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Suresh Nair",
+      "department": "Road",
+      "address": "NH-48 Junction, Gurgaon",
+      "lat": 28.42,
+      "lng": 77.03,
+      "imageUrl": null,
+      "rating": 5,
+      "createdAt": "2025-02-10",
+      "updatedAt": "2025-02-15",
+      "citizenRating": 4
+    },
+    {
+      "id": "TKT-004",
+      "title": "No water supply in Block C",
+      "description": "Water supply has been cut in entire Block C of Greenfield Colony since morning.",
+      "category": "Water",
+      "priority": "Medium",
+      "status": "PENDING",
+      "citizenId": "C003",
+      "citizenName": "Meena Das",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Greenfield Colony, Faridabad",
+      "lat": 28.495,
+      "lng": 77.085,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-22",
+      "updatedAt": "2025-02-22"
+    },
+    {
+      "id": "TKT-005",
+      "title": "Open manhole in residential area",
+      "description": "Uncovered manhole on Street 7, Vasant Vihar. Hazard for pedestrians especially children.",
+      "category": "Sanitation",
+      "priority": "High",
+      "status": "IN_PROGRESS",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Neha Verma",
+      "department": "Sanitation",
+      "address": "Street 7, Vasant Vihar, Delhi",
+      "lat": 28.56,
+      "lng": 77.19,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-21",
+      "updatedAt": "2025-02-22"
+    },
+    {
+      "id": "TKT-006",
+      "title": "Stagnant water causing mosquito breeding",
+      "description": "Stagnant water pooled near storm drain on Park Avenue is a serious dengue risk.",
+      "category": "Sanitation",
+      "priority": "Medium",
+      "status": "RESOLVED",
+      "citizenId": "C001",
+      "citizenName": "Priya Sharma",
+      "assignedTo": "Suresh Nair",
+      "department": "Sanitation",
+      "address": "Park Avenue, Gurgaon",
+      "lat": 28.469,
+      "lng": 77.032,
+      "imageUrl": null,
+      "rating": 3,
+      "createdAt": "2025-02-05",
+      "updatedAt": "2025-02-08"
+    },
+    {
+      "id": "TKT-007",
+      "title": "Leaking water main on Church Road",
+      "description": "Water main leaking near Church Road junction causing waterlogging and road damage.",
+      "category": "Water",
+      "priority": "High",
+      "status": "IN_PROGRESS",
+      "citizenId": "C002",
+      "citizenName": "Amit Kumar",
+      "assignedTo": "Rajan Mehta",
+      "department": "Water",
+      "address": "Church Road Junction, Gurgaon",
+      "lat": 28.462,
+      "lng": 77.01,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-23",
+      "updatedAt": "2025-02-23"
+    },
+    {
+      "id": "TKT-008",
+      "title": "Illegal dumping near school",
+      "description": "Construction waste illegally dumped outside school gate on BT Road blocking access.",
+      "category": "Waste",
+      "priority": "Medium",
+      "status": "PENDING",
+      "citizenId": "C002",
+      "citizenName": "Amit Kumar",
+      "assignedTo": "Neha Verma",
+      "department": "Waste",
+      "address": "BT Road, Gurgaon",
+      "lat": 28.481,
+      "lng": 77.054,
+      "imageUrl": null,
+      "rating": null,
+      "createdAt": "2025-02-24",
+      "updatedAt": "2025-02-24"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "complaintId": "TKT-001",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-18"
+    },
+    {
+      "id": 2,
+      "complaintId": "TKT-001",
+      "status": "IN_PROGRESS",
+      "note": "Assigned to officer Neha Verma",
+      "date": "2025-02-19"
+    },
+    {
+      "id": 3,
+      "complaintId": "TKT-002",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-20"
+    },
+    {
+      "id": 4,
+      "complaintId": "TKT-003",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-10"
+    },
+    {
+      "id": 5,
+      "complaintId": "TKT-003",
+      "status": "IN_PROGRESS",
+      "note": "Road crew dispatched",
+      "date": "2025-02-11"
+    },
+    {
+      "id": 6,
+      "complaintId": "TKT-003",
+      "status": "RESOLVED",
+      "note": "Pothole filled and road repaved",
+      "date": "2025-02-15"
+    },
+    {
+      "id": 7,
+      "complaintId": "TKT-004",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-22"
+    },
+    {
+      "id": 8,
+      "complaintId": "TKT-005",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-21"
+    },
+    {
+      "id": 9,
+      "complaintId": "TKT-005",
+      "status": "IN_PROGRESS",
+      "note": "Safety barriers placed, repair scheduled",
+      "date": "2025-02-22"
+    },
+    {
+      "id": 10,
+      "complaintId": "TKT-006",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-05"
+    },
+    {
+      "id": 11,
+      "complaintId": "TKT-006",
+      "status": "IN_PROGRESS",
+      "note": "Fogging done and area disinfected",
+      "date": "2025-02-06"
+    },
+    {
+      "id": 12,
+      "complaintId": "TKT-006",
+      "status": "RESOLVED",
+      "note": "Drain cleared and water removed",
+      "date": "2025-02-08"
+    },
+    {
+      "id": 13,
+      "complaintId": "TKT-007",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-23"
+    },
+    {
+      "id": 14,
+      "complaintId": "TKT-007",
+      "status": "IN_PROGRESS",
+      "note": "Repair crew dispatched to Church Road",
+      "date": "2025-02-23"
+    },
+    {
+      "id": 15,
+      "complaintId": "TKT-008",
+      "status": "SUBMITTED",
+      "note": "Complaint registered",
+      "date": "2025-02-24"
+    },
+    {
+      "id": 16,
+      "complaintId": "TKT-7809",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 17,
+      "complaintId": "TKT-7809",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 18,
+      "complaintId": "TKT-7809",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 19,
+      "complaintId": "TKT-7809",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 20,
+      "complaintId": "TKT-7809",
+      "status": "RESOLVED",
+      "note": "Status updated to RESOLVED by officer",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 21,
+      "complaintId": "TKT-001",
+      "status": "PENDING",
+      "note": "Status updated to PENDING by officer",
+      "date": "2026-02-25"
+    },
+    {
+      "id": 22,
+      "complaintId": "TKT-2425",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 23,
+      "complaintId": "TKT-2425",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 24,
+      "complaintId": "TKT-2425",
+      "status": "RESOLVED",
+      "note": "Status updated to RESOLVED by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 25,
+      "complaintId": "TKT-3225",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 26,
+      "complaintId": "TKT-3225",
+      "status": "IN_PROGRESS",
+      "note": "Officer took it",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 27,
+      "complaintId": "TKT-7963",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 28,
+      "complaintId": "TKT-7963",
+      "status": "IN_PROGRESS",
+      "note": "Officer took it",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 29,
+      "complaintId": "TKT-5854",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 30,
+      "complaintId": "TKT-5854",
+      "status": "RESOLVED",
+      "note": "Done",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 31,
+      "complaintId": "TKT-2459",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 32,
+      "complaintId": "TKT-1723",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 33,
+      "complaintId": "TKT-8975",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 34,
+      "complaintId": "TKT-8975",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 35,
+      "complaintId": "TKT-4642",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 36,
+      "complaintId": "TKT-4642",
+      "status": "RESOLVED",
+      "note": "Status updated to RESOLVED by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 37,
+      "complaintId": "TKT-4642",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 38,
+      "complaintId": "TKT-1834",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 39,
+      "complaintId": "TKT-5375",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 40,
+      "complaintId": "TKT-4789",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 41,
+      "complaintId": "TKT-4789",
+      "status": "RESOLVED",
+      "note": "Streetlight repaired by maintenance crew",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 42,
+      "complaintId": "TKT-8034",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 43,
+      "complaintId": "TKT-8034",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 44,
+      "complaintId": "TKT-8034",
+      "status": "RESOLVED",
+      "note": "Status updated to RESOLVED by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 45,
+      "complaintId": "TKT-8034",
+      "status": "IN_PROGRESS",
+      "note": "Status updated to IN PROGRESS by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 46,
+      "complaintId": "TKT-8034",
+      "status": "RESOLVED",
+      "note": "Status updated to RESOLVED by officer",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 47,
+      "complaintId": "TKT-6707",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 48,
+      "complaintId": "TKT-6840",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 49,
+      "complaintId": "TKT-4509",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 50,
+      "complaintId": "TKT-7978",
+      "status": "SUBMITTED",
+      "note": "Complaint registered successfully",
+      "date": "2026-02-26"
+    }
+  ],
+  "_timelineSeq": 51,
+  "auditLogs": [
+    {
+      "id": "AUD-1",
+      "complaint_id": "TKT-8975",
+      "action_type": "CREATE",
+      "performed_by": "PUBLIC",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-8975\",\"title\":\"No Water Supply\",\"description\":\"There has been no water supply in the area for 2 days.\",\"category\":\"water\",\"priority\":\"High\",\"status\":\"PENDING\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Anonymous Citizen\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"water\",\"address\":\"Amravati\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "b1c9e680f90f43cd3131ed5e47b03407392122bd092ae7cb1990d93f7190c95d",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T16:26:39.750Z"
+    },
+    {
+      "id": "AUD-2",
+      "complaint_id": "TKT-8975",
+      "action_type": "UPDATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-8975\",\"title\":\"No Water Supply\",\"description\":\"There has been no water supply in the area for 2 days.\",\"category\":\"water\",\"priority\":\"High\",\"status\":\"IN_PROGRESS\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Anonymous Citizen\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"water\",\"address\":\"Amravati\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "8edf643fe6a3960cd27a17ddd803a2f5cc0e2bab809096d95b34471424452ca6",
+      "previous_hash": "b1c9e680f90f43cd3131ed5e47b03407392122bd092ae7cb1990d93f7190c95d",
+      "timestamp": "2026-02-26T17:52:07.004Z"
+    },
+    {
+      "id": "AUD-3",
+      "complaint_id": "TKT-4642",
+      "action_type": "CREATE",
+      "performed_by": "PUBLIC",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-4642\",\"title\":\"Water Sanitation\",\"description\":\"Water is leaking it should be fixed as soon as possible\",\"category\":\"Water\",\"priority\":\"Medium\",\"status\":\"PENDING\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang \",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "7e3573840e206428d7dd3a841375e75ff8485d3cfe901882f140fc71379cb7fb",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T19:20:11.827Z"
+    },
+    {
+      "id": "AUD-4",
+      "complaint_id": "TKT-4642",
+      "action_type": "RESOLVE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-4642\",\"title\":\"Water Sanitation\",\"description\":\"Water is leaking it should be fixed as soon as possible\",\"category\":\"Water\",\"priority\":\"Medium\",\"status\":\"RESOLVED\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang \",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "f55f65429a115b04f422ae9876016666c3db24fd4ace872b957b0a1be1c6a0de",
+      "previous_hash": "7e3573840e206428d7dd3a841375e75ff8485d3cfe901882f140fc71379cb7fb",
+      "timestamp": "2026-02-26T19:21:09.219Z"
+    },
+    {
+      "id": "AUD-5",
+      "complaint_id": "TKT-4642",
+      "action_type": "UPDATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-4642\",\"title\":\"Water Sanitation\",\"description\":\"Water is leaking it should be fixed as soon as possible\",\"category\":\"Water\",\"priority\":\"Medium\",\"status\":\"IN_PROGRESS\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang \",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "c00eff7844169dbf83d44f97eef80c413f650bba660d9477c3e22fa3327ca3b4",
+      "previous_hash": "f55f65429a115b04f422ae9876016666c3db24fd4ace872b957b0a1be1c6a0de",
+      "timestamp": "2026-02-26T19:21:38.551Z"
+    },
+    {
+      "id": "AUD-6",
+      "complaint_id": "TKT-1834",
+      "action_type": "CREATE",
+      "performed_by": "C001",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-1834\",\"title\":\"Test leaking pipe\",\"description\":\"Water leaking from main pipe on Park Road since yesterday morning.\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"PENDING\",\"citizenId\":\"C001\",\"citizenName\":\"Priya Sharma\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "ae114f0084b175c556cadfe14960445debccf25a51f5c1b4808cfafefe21cc2f",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:24:22.544Z"
+    },
+    {
+      "id": "AUD-7",
+      "complaint_id": "TKT-5375",
+      "action_type": "CREATE",
+      "performed_by": "C-TEST",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-5375\",\"title\":\"Test notif\",\"description\":\"Large open pothole dangerous on street 5\",\"category\":\"Road\",\"priority\":\"High\",\"status\":\"PENDING\",\"citizenId\":\"C-TEST\",\"citizenName\":\"Test Citizen\",\"assignedTo\":\"Suresh Nair\",\"department\":\"Road\",\"address\":\"\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "e928ef87aca48f05b616d691c305f81dab4001d7b083410937b3f2ed65a69843",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:24:52.408Z"
+    },
+    {
+      "id": "AUD-8",
+      "complaint_id": "TKT-4789",
+      "action_type": "CREATE",
+      "performed_by": "C-LIVETEST",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-4789\",\"title\":\"Broken streetlight on MG Road\",\"description\":\"Streetlight has been broken for 3 days causing accidents at night\",\"category\":\"Streetlight\",\"priority\":\"High\",\"status\":\"PENDING\",\"citizenId\":\"C-LIVETEST\",\"citizenName\":\"Rahul Gupta\",\"assignedTo\":\"Neha Verma\",\"department\":\"Streetlight\",\"address\":\"\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "3e4824ec417c8f5ced3c2d8f7e3cbfdb35b98d791f3d5f39afb05430845ab727",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:32:18.929Z"
+    },
+    {
+      "id": "AUD-9",
+      "complaint_id": "TKT-4789",
+      "action_type": "RESOLVE",
+      "performed_by": "u7",
+      "role": "admin",
+      "data_snapshot": "{\"id\":\"TKT-4789\",\"title\":\"Broken streetlight on MG Road\",\"description\":\"Streetlight has been broken for 3 days causing accidents at night\",\"category\":\"Streetlight\",\"priority\":\"High\",\"status\":\"RESOLVED\",\"citizenId\":\"C-LIVETEST\",\"citizenName\":\"Rahul Gupta\",\"assignedTo\":\"Neha Verma\",\"department\":\"Streetlight\",\"address\":\"\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "ff6b50f76db29e6a141a56cf7bb0b3bc83004755747a2f971a31df54cc9881ee",
+      "previous_hash": "3e4824ec417c8f5ced3c2d8f7e3cbfdb35b98d791f3d5f39afb05430845ab727",
+      "timestamp": "2026-02-26T21:33:05.797Z"
+    },
+    {
+      "id": "AUD-10",
+      "complaint_id": "TKT-8034",
+      "action_type": "CREATE",
+      "performed_by": "PUBLIC",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-8034\",\"title\":\"Water Leakage\",\"description\":\"I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"PENDING\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang Mirkute\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "82d037be9f9deb34adbe2cf9e0ec769385a74c8137062efe7d95eb6c05c9e3d8",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:42:43.954Z"
+    },
+    {
+      "id": "AUD-11",
+      "complaint_id": "TKT-8034",
+      "action_type": "UPDATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-8034\",\"title\":\"Water Leakage\",\"description\":\"I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"IN_PROGRESS\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang Mirkute\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "221e753cf75378f955f866122c26e867839698d7cb2aed98aa640c4e2367405d",
+      "previous_hash": "82d037be9f9deb34adbe2cf9e0ec769385a74c8137062efe7d95eb6c05c9e3d8",
+      "timestamp": "2026-02-26T21:43:18.225Z"
+    },
+    {
+      "id": "AUD-12",
+      "complaint_id": "TKT-8034",
+      "action_type": "RESOLVE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-8034\",\"title\":\"Water Leakage\",\"description\":\"I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"RESOLVED\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang Mirkute\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "767836ef635009e21ae8d75ae5301f0b2cdab81b0a03768d6e9a780da58676a0",
+      "previous_hash": "221e753cf75378f955f866122c26e867839698d7cb2aed98aa640c4e2367405d",
+      "timestamp": "2026-02-26T21:43:23.682Z"
+    },
+    {
+      "id": "AUD-13",
+      "complaint_id": "TKT-8034",
+      "action_type": "UPDATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-8034\",\"title\":\"Water Leakage\",\"description\":\"I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"IN_PROGRESS\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang Mirkute\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "c148c5ade51fb139458dfba9f6d77df3df1fd5c502211cfa41a7a36b00054a44",
+      "previous_hash": "767836ef635009e21ae8d75ae5301f0b2cdab81b0a03768d6e9a780da58676a0",
+      "timestamp": "2026-02-26T21:44:25.046Z"
+    },
+    {
+      "id": "AUD-14",
+      "complaint_id": "TKT-8034",
+      "action_type": "RESOLVE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-8034\",\"title\":\"Water Leakage\",\"description\":\"I am facing the water leakage problem it is creating the MS year which should be sorted relief past and broken up\",\"category\":\"Water\",\"priority\":\"High\",\"status\":\"RESOLVED\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Devang Mirkute\",\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false}",
+      "hash": "dbdd0f550c2cf8ab48fa81179debf0d0e9ba2b2f421172f3d5022f924a568e95",
+      "previous_hash": "c148c5ade51fb139458dfba9f6d77df3df1fd5c502211cfa41a7a36b00054a44",
+      "timestamp": "2026-02-26T21:44:37.731Z"
+    },
+    {
+      "id": "AUD-15",
+      "complaint_id": "TKT-6707",
+      "action_type": "CREATE",
+      "performed_by": "C-TEST2",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-6707\",\"title\":\"Gas leak near market\",\"description\":\"There is a dangerous gas leak from a burst pipe near the main market. People are evacuating.\",\"category\":\"General\",\"priority\":\"CRITICAL\",\"status\":\"PENDING\",\"citizenId\":\"C-TEST2\",\"citizenName\":\"Test User\",\"phone\":null,\"assignedTo\":\"Rajan Mehta\",\"department\":\"General\",\"address\":\"\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false,\"isDuplicate\":false,\"parentComplaintId\":null,\"impactScore\":1,\"requiresImmediateAttention\":true,\"slaDeadline\":\"2026-02-27T03:54:40.703Z\"}",
+      "hash": "ea56131dec9a53fc64c4b21c0671d3d1bb9364cd5122479701ac9cd27c76f3b3",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:54:40.704Z"
+    },
+    {
+      "id": "AUD-16",
+      "complaint_id": "TKT-6840",
+      "action_type": "CREATE",
+      "performed_by": "C-TEST3",
+      "role": "citizen",
+      "data_snapshot": "{\"id\":\"TKT-6840\",\"title\":\"Gas leak near market area\",\"description\":\"Gas leak detected from broken pipe near main market. Smell is very strong.\",\"category\":\"General\",\"priority\":\"CRITICAL\",\"status\":\"PENDING\",\"citizenId\":\"C-TEST3\",\"citizenName\":\"Test User 2\",\"phone\":null,\"assignedTo\":\"Rajan Mehta\",\"department\":\"General\",\"address\":\"Main Market\",\"lat\":null,\"lng\":null,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false,\"isDuplicate\":false,\"parentComplaintId\":null,\"impactScore\":1,\"requiresImmediateAttention\":true,\"slaDeadline\":\"2026-02-27T03:54:40.896Z\"}",
+      "hash": "55c961751a26a6440183089a2887881280b971c247b8bb4c6129433fe5e71001",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:54:40.896Z"
+    },
+    {
+      "id": "AUD-17",
+      "complaint_id": "TKT-4509",
+      "action_type": "CREATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-4509\",\"title\":\"Gas Leak\",\"description\":\"There is a gas leak in my area that needs immediate attention.\",\"category\":\"Water\",\"priority\":\"CRITICAL\",\"status\":\"PENDING\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Anonymous Citizen\",\"phone\":null,\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false,\"isDuplicate\":false,\"parentComplaintId\":null,\"impactScore\":1,\"requiresImmediateAttention\":true,\"slaDeadline\":\"2026-02-27T03:57:28.751Z\"}",
+      "hash": "4b400c65e3b088501842ba073e73e4e563db62781b50c4e62cab71bb01a0df95",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:57:28.751Z"
+    },
+    {
+      "id": "AUD-18",
+      "complaint_id": "TKT-7978",
+      "action_type": "CREATE",
+      "performed_by": "u4",
+      "role": "officer",
+      "data_snapshot": "{\"id\":\"TKT-7978\",\"title\":\"Gas Leak\",\"description\":\"Gas is leaking from the main line and it may be dangerous.\",\"category\":\"Water\",\"priority\":\"CRITICAL\",\"status\":\"PENDING\",\"citizenId\":\"PUBLIC\",\"citizenName\":\"Anonymous Citizen\",\"phone\":null,\"assignedTo\":\"Rajan Mehta\",\"department\":\"Water\",\"address\":\"Pushpak Colony,  Amravati,  Maharashtra\",\"lat\":20.88182,\"lng\":77.74746,\"imageUrl\":null,\"rating\":null,\"createdAt\":\"2026-02-26\",\"updatedAt\":\"2026-02-26\",\"is_deleted\":false,\"isDuplicate\":false,\"parentComplaintId\":null,\"impactScore\":1,\"requiresImmediateAttention\":true,\"slaDeadline\":\"2026-02-27T03:58:30.747Z\"}",
+      "hash": "c266a479429e870f4b744aeb8410fc0515d0b5829674d8bf7f73cea1ee0eab83",
+      "previous_hash": "0",
+      "timestamp": "2026-02-26T21:58:30.747Z"
+    }
+  ],
+  "_auditSeq": 19,
+  "civicActions": [
+    {
+      "id": null,
+      "complaintId": "TKT-4642",
+      "citizenId": "ANON-JSDBNE4E",
+      "type": "upvote",
+      "createdAt": "2026-02-26T20:40:51.976Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-8975",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "volunteer",
+      "createdAt": "2026-02-26T20:40:56.965Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-8975",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T20:41:03.910Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-8975",
+      "citizenId": "ANON-JSDBNE4E",
+      "type": "upvote",
+      "createdAt": "2026-02-26T20:41:05.925Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-4642",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T20:41:23.349Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-4642",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "volunteer",
+      "createdAt": "2026-02-26T20:41:34.892Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-3225",
+      "citizenId": "ANON-9TOPZQ1T",
+      "type": "upvote",
+      "createdAt": "2026-02-26T21:13:51.941Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-3225",
+      "citizenId": "ANON-9TOPZQ1T",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T21:14:04.068Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-8975",
+      "citizenId": "ANON-9TOPZQ1T",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T21:14:41.660Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-4642",
+      "citizenId": "ANON-9TOPZQ1T",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T21:14:43.936Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-1723",
+      "citizenId": "ANON-9TOPZQ1T",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T21:14:46.074Z"
+    },
+    {
+      "id": null,
+      "complaintId": "TKT-2459",
+      "citizenId": "ANON-9TOPZQ1T",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T21:14:47.070Z"
+    },
+    {
+      "id": 0,
+      "complaintId": "TKT-1834",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T22:29:15.584Z"
+    },
+    {
+      "id": 1,
+      "complaintId": "TKT-4642",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T22:29:22.286Z"
+    },
+    {
+      "id": 2,
+      "complaintId": "TKT-5375",
+      "citizenId": "ANON-JSDBNE4E",
+      "citizenName": "Anonymous Citizen",
+      "type": "citizen_resolve",
+      "createdAt": "2026-02-26T22:29:24.960Z"
+    }
+  ],
+  "_civicActionSeq": 3,
+  "civicPoints": {
+    "ANON-JSDBNE4E": 58,
+    "ANON-9TOPZQ1T": 51
+  },
+  "notificationLog": [
+    {
+      "id": 1,
+      "citizenId": "C001",
+      "complaintId": "TKT-1834",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-1834",
+      "message": "Your complaint \"Test leaking pipe\" (TKT-1834) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-1834 is submitted. Track at sugrs.in/track?id=TKT-1834",
+      "sentAt": "2026-02-26T21:24:22.555Z"
+    },
+    {
+      "id": 2,
+      "citizenId": "C-TEST",
+      "complaintId": "TKT-5375",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-5375",
+      "message": "Your complaint \"Test notif\" (TKT-5375) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-5375 is submitted. Track at sugrs.in/track?id=TKT-5375",
+      "sentAt": "2026-02-26T21:24:52.410Z"
+    },
+    {
+      "id": 3,
+      "citizenId": "C-LIVETEST",
+      "complaintId": "TKT-4789",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-4789",
+      "message": "Your complaint \"Broken streetlight on MG Road\" (TKT-4789) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-4789 is submitted. Track at sugrs.in/track?id=TKT-4789",
+      "smsResult": null,
+      "sentAt": "2026-02-26T21:32:18.939Z"
+    },
+    {
+      "id": 4,
+      "citizenId": "C-LIVETEST",
+      "complaintId": "TKT-4789",
+      "status": "RESOLVED",
+      "channels": {
+        "send_push": true,
+        "send_sms": true
+      },
+      "title": "🎉 Complaint Resolved — TKT-4789",
+      "message": "Great news! Your complaint \"Broken streetlight on MG Road\" (TKT-4789) has been resolved. Thank you for helping make our city better! Please rate your experience.",
+      "sms_text": "SUGRS: Complaint TKT-4789 is RESOLVED. Thank you for your civic participation! Rate: sugrs.in/track?id=TKT-4789",
+      "smsResult": {
+        "sent": true,
+        "mode": "simulated"
+      },
+      "sentAt": "2026-02-26T21:33:05.800Z"
+    },
+    {
+      "id": 5,
+      "citizenId": "PUBLIC",
+      "complaintId": "TKT-8034",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-8034",
+      "message": "Your complaint \"Water Leakage\" (TKT-8034) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-8034 is submitted. Track at sugrs.in/track?id=TKT-8034",
+      "smsResult": null,
+      "sentAt": "2026-02-26T21:42:43.959Z"
+    },
+    {
+      "id": 6,
+      "citizenId": "PUBLIC",
+      "complaintId": "TKT-8034",
+      "status": "IN_PROGRESS",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "🔍 Complaint Under Review — TKT-8034",
+      "message": "Your complaint \"Water Leakage\" (TKT-8034) is now being reviewed by our team. We'll update you shortly.",
+      "sms_text": "SUGRS: Complaint TKT-8034 is under review. Status: In Progress.",
+      "smsResult": null,
+      "sentAt": "2026-02-26T21:43:18.229Z"
+    },
+    {
+      "id": 7,
+      "citizenId": "PUBLIC",
+      "complaintId": "TKT-8034",
+      "status": "RESOLVED",
+      "channels": {
+        "send_push": true,
+        "send_sms": true
+      },
+      "title": "🎉 Complaint Resolved — TKT-8034",
+      "message": "Great news! Your complaint \"Water Leakage\" (TKT-8034) has been resolved. Thank you for helping make our city better! Please rate your experience.",
+      "sms_text": "SUGRS: Complaint TKT-8034 is RESOLVED. Thank you for your civic participation! Rate: sugrs.in/track?id=TKT-8034",
+      "smsResult": {
+        "sent": false,
+        "mode": "skipped",
+        "reason": "no_phone"
+      },
+      "sentAt": "2026-02-26T21:43:23.685Z"
+    },
+    {
+      "id": 8,
+      "citizenId": "C-TEST2",
+      "complaintId": "TKT-6707",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-6707",
+      "message": "Your complaint \"Gas leak near market\" (TKT-6707) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-6707 is submitted. Track at sugrs.in/track?id=TKT-6707",
+      "smsResult": null,
+      "sentAt": "2026-02-26T21:54:40.708Z"
+    },
+    {
+      "id": 9,
+      "citizenId": "C-TEST3",
+      "complaintId": "TKT-6840",
+      "status": "SUBMITTED",
+      "channels": {
+        "send_push": true,
+        "send_sms": false
+      },
+      "title": "✅ Complaint Submitted — TKT-6840",
+      "message": "Your complaint \"Gas leak near market area\" (TKT-6840) has been successfully submitted and is in queue for review.",
+      "sms_text": "SUGRS: Your complaint TKT-6840 is submitted. Track at sugrs.in/track?id=TKT-6840",
+      "smsResult": null,
+      "sentAt": "2026-02-26T21:54:40.899Z"
+    }
+  ],
+  "_notifSeq": 10,
+  "feedback": [
+    {
+      "id": "FB-1772153169323",
+      "complaintId": "TKT-003",
+      "complaintTitle": "Pothole on highway junction",
+      "complaintCategory": "Road",
+      "rating": 4,
+      "comment": "",
+      "citizenName": "Anonymous Citizen",
+      "visibleOnMainPage": true,
+      "isHidden": false,
+      "createdAt": "2026-02-27T00:46:09.323Z"
+    },
+    {
+      "id": "FB-1772153606742",
+      "complaintId": "TKT-8034",
+      "complaintTitle": "Water Leakage",
+      "complaintCategory": "Water",
+      "rating": 3,
+      "comment": "gjygug",
+      "citizenName": "gygjgj",
+      "visibleOnMainPage": true,
+      "isHidden": false,
+      "createdAt": "2026-02-27T00:53:26.742Z"
+    }
+  ]
+}
