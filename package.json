@@ -1,8 +1,21 @@
 {
+  "name": "sugrs",
+  "version": "1.0.0",
+  "description": "Smart Urban Grievance Resolution System",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start-servers": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\"",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
   "dependencies": {
     "openai": "^6.25.0"
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "nodemon": "^3.1.14"
   }
 }

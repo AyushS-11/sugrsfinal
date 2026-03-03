@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
-import { CAT_COLOR, StatusBadge } from '../components/index.jsx';
+import { CAT_COLOR, StatusBadge, Icon } from '../components/index.jsx';
 
 export default function Heatmap({ complaints }) {
     const [filter, setFilter] = useState('All');

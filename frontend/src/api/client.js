@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });
+// Use environment variable for API base URL, fallback to /api for proxy
+const baseURL = import.meta.env.VITE_API_BASE_URL || '/api';
+
+const api = axios.create({ baseURL });
 
 // Auto-attach JWT token if available
 api.interceptors.request.use((config) => {
